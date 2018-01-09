@@ -52,12 +52,12 @@ module.exports = {
         ]
       },
       {
-        test: /\.scss$/,
+        test: /\.less$/,
         use: [
           'style',
           'css',
           'group-css-media-queries',
-          'sass'
+          'less'
         ]
       },
       {
