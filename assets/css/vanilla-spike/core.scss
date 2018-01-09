@@ -1,11 +1,9 @@
 @import 'variables';
 @import 'mixins';
-@import 'placeholders';
-@import 'layout';
 
-html
+.person
 {
-  font-size: 2em !important;
-  color: #000 !important;
-  font-family: Arial !important;
+  font-size: 2em;
+  color: $dark-blue;
+  font-family: Arial;
 }
